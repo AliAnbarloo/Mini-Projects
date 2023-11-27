@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "main";
+    src: url(../Fonts/PoppinsRegular-B2Bw.otf);
+}
+@font-face {
+    font-family: "dodge";
+    src: url(../Fonts/DODGE.ttf);
+}
+body{
+    background-color: black;
+    margin: 0px;
+}
+header{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url('../gifs/InShot_20231124_204523576.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 850px;
+}
+nav{
+    text-align: center;
+    border-radius: 5px;
+    position: sticky;
+    top: 0px;
+    /*
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('../gifs/fire-burning.gif');
+
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); /* این خط را اضافه کنید */
+}
+p{
+    font-family: "main";
+    color: white;
+}
+.nav-items{
+    display: inline-block;
+    margin: 0 40px; /* فاصله بین هر لینک */
+    padding-top: 15px;
+    font-family: "main";
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+    /*
+
+    padding-left: 20px;
+
+    */
+}
+.nav-items:hover{
+
+    /*
+    font-size: 22px;
+    background-color: gray;
+    border: 1px solid black;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    */
+}
+.hrs{
+    width: 75%;
+    border-color: gray;
+    animation: shadowAnimation 2s infinite; /* Use the keyframes, set animation duration to 2 seconds, and make it repeat indefinitely */
+}
+#backgif{
+    /*
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url('../gifs/InShot_20231124_204523576.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 99%;
+    height: 800px;
+    */
+}
+h1{
+    text-align:left;
+    color: white;
+    padding-top: 600px;
+    padding-left: 30px;
+    font-family: "dodge";
+    font-size: 50px;
+    margin: 0%;
+    margin-bottom: 0; /* تغییر این خط */
+}
+h4{
+    margin: 0%;
+    text-align:left;
+    color: gray;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    font-family: "main";
+    font-size: larger;
+    margin-top: 0; /* تغییر این خط */
+
+}
+#muscles{
+    color: rgb(190, 0, 0);
+}
+#hrs{
+    width: 75%;
+    border-color: gray;
+    margin-top: -50px;
+    animation: shadowAnimation 2s infinite; /* Use the keyframes, set animation duration to 2 seconds, and make it repeat indefinitely */
+}
+#Fmain{
+    text-align: center;
+    font-family: "dodge";
+    color:white;
+    font-size: 40px;
+}
+#enjoy{
+    color:darkorange;
+    background-image: url(../gifs/fire-burning.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#power{
+    color:darkred;
+    background-image: url(../gifs/fire-burning.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+@keyframes shadowAnimation {
+    0% {
+        box-shadow: 0 0 10px lightgray; /* Start with a small shadow */
+    }
+    50% {
+        box-shadow: 0 0 20px darkgray; /* Increase the shadow at 50% of the animation */
+    }
+    100% {
+        box-shadow: 0 0 10px gray; /* Return to a smaller shadow at the end */
+    }
+}
+#from{
+    font-size: 25px;
+    margin: 0%;
+    margin-top: -30px;
+    color: white;
+    text-align: center;
+}
+.imfrom{
+    display: flex;
+}
+.imgfrom{
+    width: 600px;
+    height: 420px;
+    border-radius: 20px;
+    margin-top: 10px
+} 
+#im1{
+    margin-left: 200px;
+}
+#im2{
+    margin-left: 200px;
+}
+#par1{
+    margin-left: 400px;
+}
+#par2{
+    margin-left: 68%;
+    margin-top: -50px;
+}
